@@ -1,0 +1,475 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  background-color: #fff;
+  line-height: 1.5;
+  max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.accent {
+  color: #fd9222;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.title .accent {
+  color: #fd9222;
+}
+
+/* ---------------------------------------- */
+
+/* -----------------------header--------- */
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+.header-logo-italic {
+  font-style: italic;
+}
+.header-logo-imgage {
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.header-soc-list {
+}
+.header-soc-item {
+}
+.header-soc-image {
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
+  color: #fd9222;
+}
+
+/* ---------------------------------------- */
+
+/* ----------------Hero----------------- */
+.hero {
+  background-color: rgba(17, 17, 17, 0.6);
+  border-radius: 30px;
+  width: 1136px;
+  height: 600px;
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.hero-btn-main {
+  border: 1px solid #fd9222;
+  background: #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hero-btn-main:active,
+.hero-btn-main:hover,
+.hero-btn-main:focus {
+  border: 1px solid #fcf1e0;
+  background: #fcf1e0;
+  color: #fd9222;
+}
+.hero-btn-made {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  min-width: 183px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.hero-btn-made:focus,
+.hero-btn-made:hover,
+.hero-btn-made:active {
+  border: 1px solid #fd9222;
+  color: #fd9222;
+}
+.hero-btn-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+  cursor: pointer;
+}
+.hero-btn-scroll:hover,
+.hero-btn-scroll:focus,
+.hero-btn-scroll:active {
+  color: #fd9222;
+}
+
+/* ---------------------------------------- */
+
+/* -------------feauture-------------- */
+.feauture {
+  width: 1200px;
+  height: 266px;
+  background: #1e1823;
+}
+.visually-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.feauture-item {
+}
+.feauture-title {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.feauture-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ---------------------------------------- */
+
+/* ----------------TASTE--------------------- */
+.taste {
+}
+.taste-title {
+}
+.taste-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+.taste-list-item {
+  border-radius: 15px;
+  width: 260px;
+  height: 270px;
+}
+.taste-images {
+}
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.taste-list-item-orange {
+  background: #fd9222;
+  color: #fff;
+}
+
+.taste-list-item-white {
+  background: #ffffff;
+  border: 1px solid #fd9222;
+  color: #111;
+}
+
+.taste-list-item-dark {
+  background: #1e1823;
+  color: #fff;
+}
+.taste-list-item:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+/* ---------------------------------------- */
+
+/* ---------------made------------- */
+.made-title {
+}
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+
+.made-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* ---------------------------------------- */
+
+/* ------------PRODUCS-------- */
+
+.products-title {
+}
+
+.products-list-item {
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  width: 270px;
+  height: 364px;
+  background: #fff;
+}
+
+.products-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.products-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+  display: flex;
+  align-items: center; /* вертикально */
+  justify-content: center; /* горизонтально */
+
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  padding: 8px 20px;
+  min-width: 94px;
+  height: 33px;
+
+  background: #fafafa;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  cursor: pointer;
+}
+
+.products-btn:hover {
+  background: #fd9222;
+  color: #fff;
+  border-color: transparent;
+  transition: 0.3s;
+}
+
+/* ---------------------------------------- */
+
+/* ----------------SELLERS--------------- */
+.sellers {
+}
+.sellers-title {
+}
+
+.sellers-list {
+}
+
+.sellers-list-item {
+}
+
+.sellers-images {
+  border-radius: 15px 15px 0 0;
+}
+
+.sellers-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* ---------------------------------------- */
+
+/* -----------------reviews-------------- */
+
+.reviews-title {
+}
+
+.reviews-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.reviews-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.reviews-btn {
+  display: flex;
+  align-items: center; /* вертикально */
+  justify-content: center; /* горизонтально */
+  cursor: pointer;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+.reviews-btn:hover,
+.reviews-btn:focus,
+.reviews-btn:active {
+  background: #fd9222;
+  color: #fff;
+  border-color: transparent;
+  transition: 0.3s;
+}
+
+/* ---------------------------------------- */
+
+/* --------------------footer------------- */
+
+.footer {
+  background: #1e1823;
+  width: 1200px;
+  height: 298px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-text .accent {
+  color: #fd9222;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fff;
+}
+.footer-soc-list {
+}
+.footer-soc-list-item {
+}
+.footer-soc-link {
+}
+.footer-images {
+}
+.footer-contacts {
+}
+.footer-contacts-list {
+}
+.footer-contacts-list-item {
+}
+.footer-contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+.footer-menu-list {
+}
+.footer-menu-list-item {
+}
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus,
+.footer-menu-link:active {
+  color: #fd9222;
+}
+
+/* ------------------------------------------- */
